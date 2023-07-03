@@ -1,3 +1,8 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     padding: 2%;
@@ -5,12 +10,135 @@ body{
 }
 header{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
 }
 .title{
-    background-color: cornflowerblue;
+    background-color: #6495ed;
     color: aliceblue;
     padding: 10px;
 }
+#logo{
+    width: 40%;
+}
+img{
+    width: 50%
+}
+#subtitulo{
+  display: flex;  
+}
+#subtitulo h3{
+    width: 50%;
+    text-align: justify;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+   
+}
+h3{
+    padding-bottom: 40px;
+}
+#titulo-de-eleitor{
+    margin: 10px;
+    width: 40%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 100px;
+}
+#titulo-de-eleitor:hover{
+    transition: 0.4s;
+    margin: 10px;
+    width: 40%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    background-color: #6495ed;
+    text-align: center;
+    border-radius: 100px;
+}
+#alistamento{
+    margin: 10px;
+    width: 40%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 100px;
+    
+}
 
+#alistamento:hover{
+    transition: 0.4s;
+    margin: 10px;
+    width: 40%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    background-color: #6495ed;
+    text-align: center;
+    border-radius: 100px;
+}
+#identidade{
+    margin: 10px;
+    width: 40%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 100px;
+    
+}
+#identidade:hover{
+    transition: 0.4s;
+    margin: 10px;
+    width: 40%;
+    border-radius: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    text-align: center;
+    background-color: #6495ed;
+}
+#cnh{
+    margin: 10px;
+    width: 40%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 100px;
+}
+#cnh:hover{
+    transition: 0.4s;
+    margin: 10px;
+    width: 40%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    border-radius: 100px;
+    background-color: #6495ed;
+    
+}
+
+#links{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
 
